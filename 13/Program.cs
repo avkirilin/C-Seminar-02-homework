@@ -8,5 +8,5 @@ if (A > 99)
 }
 else
 {
-    Console.WriteLine ("Третьей цифры нет");
+    Console.WriteLine ("Нет третьей цифры в данном числе");
 }
