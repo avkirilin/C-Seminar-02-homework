@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите номер дня недели");
+int N = Convert.ToInt32(Console.ReadLine());
+int D = N % 7;
+if (D == 1) Console.WriteLine("Понедельник");
+if (D == 2) Console.WriteLine("Вторник");
+if (D == 3) Console.WriteLine("Среда");
+if (D == 4) Console.WriteLine("Четверг");
+if (D == 5) Console.WriteLine("Пятница");
+if (D == 6) Console.WriteLine("Суббота");
+if (D == 0) Console.WriteLine("Воскресенье");
